@@ -1,43 +1,51 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-margin: 50px;
-  
-}
-.container {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+.container {
+  display: flex;
+  max-width: 900px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.box{
+.box {
+padding: 70px 30px;
 }
 .icon {
-    
 }
 .cartype {
-    margin: 20px;
+  margin: 20px;
 }
 .about-text {
-margin: 20px;
+  margin: 20px;
+  margin-bottom: 35px;
 }
-.learnmore{
-    margin: 20px;
-} 
+.learnmore {
+  margin: 20px;
+  background-color: white;
+  padding: 10px;
+  max-width: 110px;
+  border-radius: 50px;
+}
 
 .sedan {
-    background-color: #e38826;
-    padding: 30px;
+  background-color: #e38826;
+  
 }
 .suv {
-padding: 30px;
-background-color: #006970;
+  
+  background-color: #006970;
 }
 .luxury {
-background-color: #004241;
-padding: 30px;
+  background-color: #004241;
 }
