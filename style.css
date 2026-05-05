@@ -13,3 +13,11 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+
+.box{
+}
+
+.sedan {
+    background-color: antiquewhite;
+    padding: 40px;
+}
