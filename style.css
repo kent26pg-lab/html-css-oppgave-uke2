@@ -22,16 +22,22 @@ body {
 padding: 70px 30px;
 }
 .icon {
+    margin:  0px 0px;
+
 }
 .cartype {
-  margin: 20px;
+  margin: 20px 0;
+  
 }
 .about-text {
   margin: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 }
 .learnmore {
-  margin: 20px;
+  margin-bottom: -20px;
   background-color: white;
   padding: 10px;
   max-width: 110px;
