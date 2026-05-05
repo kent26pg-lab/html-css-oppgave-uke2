@@ -4,7 +4,7 @@
 }
 
 body {
-
+margin: 50px;
   
 }
 .container {
@@ -16,14 +16,28 @@ body {
 
 .box{
 }
+.icon {
+    
+}
+.cartype {
+    margin: 20px;
+}
+.about-text {
+margin: 20px;
+}
+.learnmore{
+    margin: 20px;
+} 
 
 .sedan {
-    background-color: antiquewhite;
-    padding: 40px;
+    background-color: #e38826;
+    padding: 30px;
 }
 .suv {
-padding: 40px;
+padding: 30px;
+background-color: #006970;
 }
 .luxury {
-padding: 40px;
+background-color: #004241;
+padding: 30px;
 }
