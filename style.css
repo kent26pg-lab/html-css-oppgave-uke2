@@ -13,7 +13,7 @@ body {
 }
 .container {
   display: flex;
-  max-width: 900px;
+  max-width: 800px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -25,20 +25,18 @@ body {
   align-items: flex-start;
 }
 .icon {
-  margin-top: -25px;
-  margin-bottom: 20px;
+  margin: -25px 0px 20px 10px;
 }
 
 .cartype {
-  margin: 20px 0;
+  margin: 20px 0px 0px 10px;
   font-family: "Big Shoulders", sans-serif;
   font-weight: 700;
   font-size: 30px;
   color: white;
 }
 .about-text {
-  margin: 20px 0px;
-  margin-bottom: 60px;
+  margin: 20px 0px 80px 10px;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -49,6 +47,7 @@ body {
 .lm3 {
   margin-top: auto;
   background-color: white;
+  margin: 0px 0px -20px 10px;
   padding: 10px;
   width: 120px;
   border-radius: 50px;
@@ -58,13 +57,13 @@ body {
 .lm1 {
   color: #e38826;
 }
+
 .lm2 {
   color: #006970;
 }
 .lm3 {
   color: #004241;
 }
-
 .sedan {
   background-color: #e38826;
 }
