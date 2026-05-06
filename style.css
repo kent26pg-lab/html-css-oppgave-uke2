@@ -44,26 +44,8 @@ body {
   font-size: 15px;
   color: #ffffffbf;
 }
-.lm1 {
-  margin-top: auto;
-  background-color: white;
-  padding: 10px;
-  width: 120px;
-  border-radius: 50px;
-  text-align: center;
-  color: #e38826;
-  margin-bottom: -10px;
-}
-.lm2 {
-  margin-top: auto;
-  background-color: white;
-  padding: 10px;
-  width: 120px;
-  border-radius: 50px;
-  text-align: center;
-  color: #006970;
-   margin-bottom: -10px;
-}
+.lm1,
+.lm2,
 .lm3 {
   margin-top: auto;
   background-color: white;
@@ -71,8 +53,16 @@ body {
   width: 120px;
   border-radius: 50px;
   text-align: center;
+  text-decoration: none;
+}
+.lm1 {
+  color: #e38826;
+}
+.lm2 {
+  color: #006970;
+}
+.lm3 {
   color: #004241;
-   margin-bottom: -10px;
 }
 
 .sedan {
