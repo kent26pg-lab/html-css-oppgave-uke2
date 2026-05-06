@@ -13,6 +13,7 @@ body {
 }
 .container {
   display: flex;
+  flex-direction: row;
   max-width: 800px;
   border-radius: 10px;
   overflow: hidden;
@@ -45,7 +46,6 @@ body {
 .lm1,
 .lm2,
 .lm3 {
-  margin-top: auto;
   background-color: white;
   margin: 0px 0px -30px 10px;
   padding: 10px;
